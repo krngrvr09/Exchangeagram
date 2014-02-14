@@ -240,7 +240,7 @@ body>section>header>p>span{
     margin-left:-436px;	
     width:450px;	
     height:450px;	
-    background:#10f6f6;	
+    background:black;	
     border-radius:376px;	
     text-align:center;	
     z-index:11}
@@ -304,10 +304,11 @@ body>section>header>p>span{
     margin-left:21px;	
     width:100px !important}
 #header
-#headerAnna{
+#header2{
     width:100%;	
     height:100%;	
-    background:transparent url('/home/static/images/header.anna.jpg')}
+    background:transparent url('/home/static/images/wall3.jpg')
+    /*background-attachment: fixed;*/ }
 #header
 .tendinaHeader{
     position:absolute;	

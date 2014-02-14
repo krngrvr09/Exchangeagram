@@ -2,23 +2,19 @@
 <html lang="en">
 <head>
 <title>ExChAnGeaGRaM</title>
-<meta charset="utf-8">
 <meta name="description" content="Buy not, barter. Why not barter?"/>
 <link rel="shortcut icon" href="home/static/images/ExChAnGeaGRaM.ico">
 <link href="home/static/css/style.css" rel="stylesheet"/>
-<link href="home/static/css/fonts.css" rel="stylesheet"/>
-<script src="home/static/js/html5shiv.js" type="text/javascript"></script>
 <script src="home/static/js/mootools-core-1.4.2.min.js" type="text/javascript"></script>
-<script src="home/static/js/mootools-more-1.4.0.1.min.js" type="text/javascript"></script>
 <script src="home/static/js/lib.min.js" type="text/javascript"></script>
 <script src="home/static/js/bootstrap.min.js" type="text/javascript"></script>
+
 </head>
 <body>
 <div id="loader">
 	<h1>ExChAnGeaGRaM</h1>
 	<h2>Buy not, barter. Why not barter?</h2>
 	<h3>LOADING...</h3>
-	<div id="loaderSpinner"></div>
 	<span id="loaderBollo"></span>
 	<p id="loaderTop"></p>
 	<p id="loaderBottom"></p>
@@ -26,7 +22,6 @@
 <nav id="menu">
 	<div id="menuButtons">
 		<a href="#biografia">AboUt</a>
-		<a href="#galleria">CaTeGorIes</a>
 		<a href="#news">ConTaCt</a>
 		<div><a id="menuBackToTop" href="#">BAcK tO ToP</a></div>
 	</div>
@@ -43,8 +38,8 @@
 		<h2><strong>InTroDucInG</strong></h2>
 		<hr class="top">
 		
-		<h2>Exchangeagram</h2>
-		<h3>hi</h3>
+		<h1>Exchange
+		agram</h1>
 		<hr class="bottom">
 		<h3>SheKhaWat & GroVer </h3> 
 		<h4>PRoDuCTioNs</h4>
