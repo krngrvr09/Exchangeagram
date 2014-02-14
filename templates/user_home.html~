@@ -1,0 +1,11 @@
+<! DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<form name = "input" action = "/register" method = "post">
+    user_name: <input type = "text" name = "name">
+    user_image: <input type = "file" name = "image">
+</form>
+</body>
+</html>

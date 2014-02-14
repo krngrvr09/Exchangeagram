@@ -9,6 +9,7 @@ urlpatterns = patterns('app.views',
       url(r'^home/user_home/$', 'user_home', name='user_home'),
       url(r'^home/user_home/profile/$', 'profile'),
       url(r'^home/user_home/picture/$', 'picture'),
+      url(r'^home/user_home/home/$', 'home'),
       
     # url(r'^$', 'hackathon.views.home', name='home'),
     # url(r'^hackathon/', include('hackathon.foo.urls')),
