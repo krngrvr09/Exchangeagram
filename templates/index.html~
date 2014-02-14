@@ -17,7 +17,6 @@
 <div id="loader">
 	<h1>ExChAnGeaGRaM</h1>
 	<h2>Buy not, barter. Why not barter?</h2>
-	<h3>Bartering website to swap, barter, trade things online for free</h3>
 	<h3>LOADING...</h3>
 	<div id="loaderSpinner"></div>
 	<span id="loaderBollo"></span>
@@ -26,8 +25,7 @@
 </div>
 <nav id="menu">
 	<div id="menuButtons">
-		<a href="#filmografia">AboUt</a>
-		<a href="#biografia"></a>
+		<a href="#biografia">AboUt</a>
 		<a href="#galleria">CaTeGorIes</a>
 		<a href="#news">ConTaCt</a>
 		<div><a id="menuBackToTop" href="#">BAcK tO ToP</a></div>
@@ -44,107 +42,29 @@
 		<span class="top"></span>
 		<h2><strong>InTroDucInG</strong></h2>
 		<hr class="top">
-		<h1>ExChAnGeaGRaM</h1>
+		
+		<h2>Exchangeagram</h2>
+		<h3>hi</h3>
 		<hr class="bottom">
 		<h3>SheKhaWat & GroVer </h3> 
 		<h4>PRoDuCTioNs</h4>
-  		<div class="fb-like" data-href="https://www.facebook.com/anna.safroncik.official" data-send="false" data-layout="button_count" data-width="100" data-show-faces="false" data-font="lucida grande"></div>
-		<a href="https://twitter.com/anna_safroncik" class="twitter-follow-button" data-show-count="false" data-lang="it" data-show-screen-name="false">Segui @anna_safroncik</a>
-		<span class="bottom"></span>
+  		<span class="bottom"></span>
 	</div>
 	<div id="headerAnna"></div>
 </header>
 
-<!-- FILMOGRAFIA -->
-<section id="filmografia">
-	<header>
-		<p><span></span></p>
-		<h2><span>Filmografia</span></h2>
-		<h3><span>fiction cinema e teatro</span></h3>
-		<div class="clear"></div>
-		<hr>
-	</header>
-	<section>
-		<section id="first">
-			<article id="first2010">
-				<h2><strong>2010</strong><span>CINEMA</span></h2>
-				<p><span>Rob Marshall</span><strong>NINE</strong></p>
-				<p><span>Giampaolo Cugno</span><strong>LA BELLA SOCIETÀ</strong></p>
-				<div class="clear"></div>
-			</article>
-			<article id="first2009">
-				<h2><strong>2009</strong><span>CINEMA</span></h2>
-				<p><span>Gabriele Paoli</span><strong>COINCIDENZE</strong></p>
-				<p><span>Avellino, Ficarra & Picone</span><strong>LA MATASSA</strong></p>
-				<div class="clear"></div>
-				<p><span>Carlo Verdone</span><strong>C’ERA UN CINESE IN COMA</strong></p>
-				<p><span>Fabrizio M. Cortese</span><strong>WELCOME ALBANIA</strong></p>
-				<p><span>Francesco Calogero</span><strong>METRONOTTE</strong></p>
-				<div class="clear"></div>
-			</article>
-		</section>
-		<section id="second">
-			<article id="second2011">
-				<h2><strong>2011</strong><span>FICTION</span></h2>
-				<p><span>R. Mertes ,& V. Verdecchi</span><strong>LE TRE ROSE DI EVA</strong></p>
-				<p><span>Fabrizio Costa</span><strong>IL COMMISSARIO NARDONE</strong></p>
-				<div class="clear"></div>
-			</article>
-			<article id="second2010">
-				<h2><strong>2010</strong><span>FICTION</span></h2>
-				<p><span>Italia 1 R.R.V.V.</span><strong>CUORK</strong></p>
-				<p><span>Luca Ribuoli</span><strong>IL COMMISARIO MANARA 2</strong></p>
-				<div class="clear"></div>
-			</article>
-			<article id="second2009">
-				<h2><strong>2009</strong><span>FICTION</span></h2>
-				<p><span>Rossella Izzo</span><strong>IL RITMO DELLA VITA</strong></p>
-				<p><span>Stefano Reali</span><strong>AL DI LÀ DEL LAGO</strong></p>
-				<div class="clear"></div>
-				<p><span>Giorgio Serafini</span><strong>IL FALCO E LA COLOMBA</strong></p>
-				<div class="clear"></div>
-			</article>
-		</section>
-		<section id="third">
-			<article id="third2007">
-				<h2><strong>2007</strong><span>FICTION</span></h2>
-				<p><span>Stefano Alleva</span><strong>LA FIGLIA DI ELISA</strong></p>
-				<div class="clear"></div>
-			</article>
-			<article id="third2004">
-				<h2><strong>DAL 2004 AL 2007</strong><span>FICTION</span></h2>
-				<p><span>R.R.V.V.</span><strong>CENTO VETRINE</strong></p>
-				<div class="clear"></div>
-			</article>
-			<div class="clear"></div>
-			<article id="third2002">
-				<h2><strong>2002</strong><span>FICTION</span></h2>
-				<p><span>Enrico Oldoini</span><strong>DON MATTEO 3</strong></p>
-				<p><span>Giordani, Lepre & Manni</span><strong>VENTO DI PONENTE</strong></p>
-				<p><span>Raffaele Mertes</span><strong>CARABINIERI</strong></p>
-				<div class="clear"></div>
-			</article>
-			<article id="third2001">
-				<h2><strong>2001</strong><span>FICTION</span></h2>
-				<p><span>Gianfrancesco Lazzotti</span><strong>ANGELO IL CUSTODE</strong></p>
-				<div class="clear"></div>
-			</article>
-		</section>
-		<div id="filmBollo1"></div>
-		<div id="filmBollo2"></div>
-	</section>
-</section>
 
-<!-- BIOGRAFIA -->
+<!-- ABOUT -->
 <section id="biografia">
 	<header>
 		<p><span></span></p>
-		<h2><span>Biografia</span></h2>
-		<h3><span>04 Gennaio - Capricorno</span></h3>
+		<h2><span>AboUt</span></h2>
+		<h3><span></span></h3>
 		<div class="clear"></div>
 		<hr>
-		<h4>Il mondo è nelle mani di coloro che hanno il <strong>coraggio di sognare</strong> e di <strong>correre il rischio di vivere i propri sogni</strong></h4>
-		<h5>Paulo Coelho</h5>
+		<h4>Decide what you 
+        <strong>want</strong> , decide what you are willing to <strong>exchange</strong> for it. Establish your priorities and go to work.</h4>
+		<h5>H. L. Hunt</h5>
 	</header>
 	<section>
 		<section id="firstBio">

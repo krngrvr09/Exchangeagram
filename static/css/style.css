@@ -190,7 +190,7 @@ body>section>header>p>span{
     display:block;	
     padding-left:23px;	
     font:12px/1 "Museo";	
-    background:transparent url('/images/menu.backtotop.png') no-repeat scroll 0% 0%;	
+    background:transparent url('/home/static/images/menu.backtotop.png') no-repeat scroll 0% 0%;	
     color:#d2cbc0}
 #menu #menuFacebook, #menu
 #menuTwitter{
@@ -213,16 +213,16 @@ body>section>header>p>span{
 #menuFacebook{
     right:46px}
 #menu #menuFacebook>div>a{
-    background:transparent url('/images/menu.facebook.normal.png') no-repeat scroll center 14px}
+    background:transparent url('/home/static/images/menu.facebook.normal.png') no-repeat scroll center 14px}
 #menu #menuFacebook>div>a>p{
-    background:#91d1da url('/images/menu.facebook.hover.png') no-repeat scroll center center}
+    background:#91d1da url('/home/static/images/menu.facebook.hover.png') no-repeat scroll center center}
 #menu
 #menuTwitter{
     right:0}
 #menu #menuTwitter>div>a{
-    background:transparent url('/images/menu.twitter.normal.png') no-repeat scroll center 14px}
+    background:transparent url('/home/static/images/menu.twitter.normal.png') no-repeat scroll center 14px}
 #menu #menuTwitter>div>a>p{
-    background:#91d1da url('/images/menu.twitter.hover.png') no-repeat scroll center center}
+    background:#91d1da url('/home/static/images/menu.twitter.hover.png') no-repeat scroll center center}
 #header{
     position:relative;	
     top:0;	
@@ -238,9 +238,9 @@ body>section>header>p>span{
     top:191px;	
     left:50%;	
     margin-left:-436px;	
-    width:376px;	
-    height:376px;	
-    background:black;	
+    width:450px;	
+    height:450px;	
+    background:#10f6f6;	
     border-radius:376px;	
     text-align:center;	
     z-index:11}
@@ -267,10 +267,10 @@ body>section>header>p>span{
     border:0}
 #header #headerBollonzo>hr.top{
     top:91px;	
-    background:transparent url('/images/header.ornament.top.png') no-repeat scroll center center}
+    background:transparent url('/home/static/images/header.ornament.top.png') no-repeat scroll center center}
 #header #headerBollonzo>hr.bottom{
     top:232px;	
-    background:transparent url('/images/header.ornament.bottom.png') no-repeat scroll center center}
+    background:transparent url('/home/static/images/header.ornament.bottom.png') no-repeat scroll center center}
 #header #headerBollonzo>h1{
     top:118px;	
     font:60px/.8 "Otto";	
@@ -288,7 +288,7 @@ body>section>header>p>span{
 #header #headerBollonzo>h3{
     top:259px;	
     font:14px/1 "Museo";	
-    color:#83807a}
+    color:#71acd6}
 #header #headerBollonzo>h4{
     top:275px;	
     font:14px/1 "Museo";	
@@ -307,7 +307,7 @@ body>section>header>p>span{
 #headerAnna{
     width:100%;	
     height:100%;	
-    background:transparent url('/images/header.anna.jpg')}
+    background:transparent url('/home/static/images/header.anna.jpg')}
 #header
 .tendinaHeader{
     position:absolute;	
@@ -322,102 +322,10 @@ body>section>header>p>span{
 #header
 #tendinaDx{
     left:763px}
-#filmografia{
-    position:relative;	
-    background:black}
-#filmografia>header>p>span{
-    background:transparent url('/images/filmografia.title.icon.png') no-repeat scroll center center}
-#filmografia>section>section>article{
-    border-bottom:1px solid #202020;	
-    padding-bottom:10px}
-#filmografia>section>section>article>h2{
-    float:left}
-#filmografia>section>section>article>h2>strong{
-    display:block;	
-    font:24px/.7 "Museo";	
-    color:#74a7ae;	
-    padding-top:3px;	
-    font-weight:normal;	
-    font-style:normal}
-#filmografia>section>section>article>h2>span{
-    font:13px/1 "Museo";	
-    color:#354b4e}
-#filmografia>section>section>article>p{
-    float:left}
-#filmografia>section>section>article>p>strong{
-    display:block}
-#filmografia>section>section>article>p>strong{
-    margin-top:2px;	
-    font:18px/1 "Museo";	
-    color:#e1dace}
-#filmografia>section>div{
-    position:absolute;	
-    width:407px;	
-    height:407px;	
-    border-radius:407px;	
-    border:6px
-    solid rgba(255,255,255,.2)}
-#filmBollo1{
-    top:60px;	
-    right:-63px;	
-    background:transparent url('/images/filmografia.anna.bollonzo.1.jpg') no-repeat scroll center center;	
-    z-index:11}
-#filmBollo2{
-    top:534px;	
-    left:-88px;	
-    background:transparent url('/images/filmografia.anna.bollonzo.2.jpg') no-repeat scroll center center;	
-    z-index:12}
-#filmografia
-#first{
-    margin-bottom:89px}
-#filmografia
-#first2010{
-    margin-bottom:64px}
-#filmografia #first2010 > h2, #filmografia #first2010 > p, #filmografia #first2009 > h2, #filmografia #first2009>p{
-    width:167px;	
-    padding-right:35px}
-#filmografia #first2009>h2{
-    margin-bottom:42px}
-#filmografia
-#second{
-    margin:0
-    0 96px 377px;	
-    width:612px}
-#filmografia #second2011, #filmografia
-#second2010{
-    margin-bottom:80px}
-#filmografia #second2011 > h2, #filmografia #second2010 > h2, #filmografia #second2009>h2{
-    width:130px}
-#filmografia #second2011 > p, #filmografia #second2010 > p, #filmografia #second2009>p{
-    width:239px}
-#filmografia #second2009>h2{
-    margin-bottom:32px}
-#filmografia #third
-h2{
-    width:242px}
-#filmografia #third2007, #filmografia #third2004, #filmografia
-#third2002{
-    margin-bottom:78px}
-#filmografia #third2007, #filmografia
-#third2004{
-    float:left}
-#filmografia
-#third2007{
-    width:48%;	
-    margin-right:2%}
-#filmografia
-#third2004{
-    width:50%}
-#filmografia #third2004>h2>strong{
-    padding-top:0;	
-    margin-top:11px;	
-    font-size:14px}
-#filmografia #third2002>p{
-    width:249px}
 #biografia{
     position:relative}
 #biografia>header>p>span{
-    background:transparent url('/images/biografia.title.icon.png') no-repeat scroll center center}
+    background:transparent url('/home/static/images/biografia.title.icon.png') no-repeat scroll center center}
 #biografia>header>h4,#biografia>header>h5{
     position:absolute;	
     right:10px;	
@@ -461,7 +369,7 @@ h2{
     width:320px;	
     height:320px;	
     border-radius:320px;	
-    background:transparent url('/images/biografia.anna.bollonzo.1a.jpg') no-repeat scroll center center;	
+    background:transparent url('/home/static/images/biografia.anna.bollonzo.1a.jpg') no-repeat scroll center center;	
     z-index:11}
 #biografia #firstBio
 #firstBollo2{
@@ -470,7 +378,7 @@ h2{
     width:207px;	
     height:207px;	
     border-radius:207px;	
-    background:transparent url('/images/biografia.anna.bollonzo.1b.jpg') no-repeat scroll center center;	
+    background:transparent url('/home/static/images/biografia.anna.bollonzo.1b.jpg') no-repeat scroll center center;	
     z-index:12}
 #biografia #firstBio
 #firstBollo3{
@@ -479,7 +387,7 @@ h2{
     width:153px;	
     height:153px;	
     border-radius:153px;	
-    background:transparent url('/images/biografia.anna.bollonzo.1c.jpg') no-repeat scroll center center;	
+    background:transparent url('/home/static/images/biografia.anna.bollonzo.1c.jpg') no-repeat scroll center center;	
     z-index:13}
 #biografia
 #secondBio{
@@ -491,7 +399,7 @@ h2{
     width:427px;	
     height:427px;	
     border-radius:427px;	
-    background:transparent url('/images/biografia.anna.bollonzo.2a.jpg') no-repeat scroll center center;	
+    background:transparent url('/home/static/images/biografia.anna.bollonzo.2a.jpg') no-repeat scroll center center;	
     z-index:11}
 #biografia #secondBio
 #secondBollo2{
@@ -500,7 +408,7 @@ h2{
     width:217px;	
     height:217px;	
     border-radius:217px;	
-    background:transparent url('/images/biografia.anna.bollonzo.2b.jpg') no-repeat scroll center center;	
+    background:transparent url('/home/static/images/biografia.anna.bollonzo.2b.jpg') no-repeat scroll center center;	
     z-index:12}
 #biografia
 #thirdBio{
@@ -512,7 +420,7 @@ h2{
     width:436px;	
     height:436px;	
     border-radius:436px;	
-    background:transparent url('/images/biografia.anna.bollonzo.3a.jpg') no-repeat scroll center center;	
+    background:transparent url('/home/static/images/biografia.anna.bollonzo.3a.jpg') no-repeat scroll center center;	
     z-index:11}
 #biografia #thirdBio
 #thirdBollo2{
@@ -521,12 +429,12 @@ h2{
     width:235px;	
     height:235px;	
     border-radius:235px;	
-    background:transparent url('/images/biografia.anna.bollonzo.3b.jpg') no-repeat scroll center center;	
+    background:transparent url('/home/static/images/biografia.anna.bollonzo.3b.jpg') no-repeat scroll center center;	
     z-index:12}
 #galleria{
     position:relative}
 #galleria>header>p>span{
-    background:transparent url('/images/galleria.title.icon.png') no-repeat scroll center center}
+    background:transparent url('/home/static/images/galleria.title.icon.png') no-repeat scroll center center}
 #galleria>section>article{
     border-bottom:1px solid #202020;	
     padding:47px
@@ -558,7 +466,7 @@ h2{
     top:48px;	
     width:100%;	
     height:13px;	
-    background:transparent url('/images/galleria.cover.button.arrow.png') no-repeat scroll center center}
+    background:transparent url('/home/static/images/galleria.cover.button.arrow.png') no-repeat scroll center center}
 #galleria #immagini>nav>a>header>hr{
     top:118px;	
     left:50%;	
@@ -570,7 +478,7 @@ h2{
     top:126px;	
     width:100%;	
     height:13px;	
-    background:transparent url('/images/galleria.cover.button.camera.png') no-repeat scroll center center}
+    background:transparent url('/home/static/images/galleria.cover.button.camera.png') no-repeat scroll center center}
 #galleria #immagini>nav>a>p{
     position:absolute;	
     display:block;	
@@ -631,11 +539,11 @@ h2{
 #immagini #galleriaNavFirst>div{
     width:322px;	
     height:371px;	
-    background:transparent url('/images/galleria.cover.glam.jpg')}
+    background:transparent url('/home/static/images/galleria.cover.glam.jpg')}
 #immagini #galleriaNavSecond>div{
     width:322px;	
     height:371px;	
-    background:transparent url('/images/galleria.cover.book.jpg')}
+    background:transparent url('/home/static/images/galleria.cover.book.jpg')}
 #immagini > nav
 #galleriaNavThird{
     margin-right:0}
@@ -644,7 +552,7 @@ h2{
 #immagini #galleriaNavThird>div{
     width:322px;	
     height:371px;	
-    background:transparent url('/images/galleria.cover.ontheset.jpg')}
+    background:transparent url('/home/static/images/galleria.cover.ontheset.jpg')}
 #galleria
 #video{
     position:relative;	
@@ -657,7 +565,7 @@ h2{
     display:block;	
     width:122px;	
     height:26px;	
-    background:transparent url('/images/galleria.video.youtube.hosting.png')}
+    background:transparent url('/home/static/images/galleria.video.youtube.hosting.png')}
 #galleria #video
 #video1{
     margin-left:10px}
@@ -675,7 +583,7 @@ h2{
     left:36px;	
     width:507px;	
     height:410px;	
-    background:transparent url('/images/galleria.media.imac.jpg') no-repeat;	
+    background:transparent url('/home/static/images/galleria.media.imac.jpg') no-repeat;	
     z-index:1}
 #galleria #wallpaper
 #wallpaperiPad{
@@ -683,7 +591,7 @@ h2{
     left:380px;	
     width:197px;	
     height:244px;	
-    background:transparent url('/images/galleria.media.ipad.png') no-repeat;	
+    background:transparent url('/home/static/images/galleria.media.ipad.png') no-repeat;	
     z-index:2}
 #galleria #wallpaper
 #wallpaperiPhone{
@@ -691,7 +599,7 @@ h2{
     left:353px;	
     width:65px;	
     height:125px;	
-    background:transparent url('/images/galleria.media.iphone.png') no-repeat;	
+    background:transparent url('/home/static/images/galleria.media.iphone.png') no-repeat;	
     z-index:3}
 #galleria #wallpaper
 #wallpaperBollonzo{
@@ -756,15 +664,15 @@ h2{
 #galleria #wallpaper #wallpaperBollonzo
 #downloadWidescreen{
     top:198px;	
-    background:transparent url('/images/galleria.media.bollonzo.widescreen.png') no-repeat scroll 0 top}
+    background:transparent url('/home/static/images/galleria.media.bollonzo.widescreen.png') no-repeat scroll 0 top}
 #galleria #wallpaper #wallpaperBollonzo
 #downloadTablet{
     top:236px;	
-    background:transparent url('/images/galleria.media.bollonzo.tablet.png') no-repeat scroll 2px top}
+    background:transparent url('/home/static/images/galleria.media.bollonzo.tablet.png') no-repeat scroll 2px top}
 #galleria #wallpaper #wallpaperBollonzo
 #downloadMobile{
     top:273px;	
-    background:transparent url('/images/galleria.media.bollonzo.mobile.png') no-repeat scroll 5px top}
+    background:transparent url('/home/static/images/galleria.media.bollonzo.mobile.png') no-repeat scroll 5px top}
 #galleria #wallpaper #wallpaperBollonzo
 #downloadZip{
     bottom:40px;	
@@ -773,7 +681,7 @@ h2{
     padding:0
     0 38px 0;	
     width:210px;	
-    background:transparent url('/images/galleria.media.bollonzo.zip.png') no-repeat scroll center bottom;	
+    background:transparent url('/home/static/images/galleria.media.bollonzo.zip.png') no-repeat scroll center bottom;	
     text-align:center}
 #chosenGallery{
     position:absolute;	
@@ -848,7 +756,7 @@ h2{
     position:relative;	
     border:0}
 #news>header>p>span{
-    background:transparent url('/images/news.title.icon.png') no-repeat scroll center center}
+    background:transparent url('/home/static/images/news.title.icon.png') no-repeat scroll center center}
 #news>section{
     position:relative;	
     height:465px;	
@@ -900,7 +808,7 @@ h2{
     width:435px;	
     height:435px;	
     border-radius:435px;	
-    background:transparent url('/images/news.anna.bollonzo.jpg') no-repeat scroll center center;	
+    background:transparent url('/home/static/images/news.anna.bollonzo.jpg') no-repeat scroll center center;	
     z-index:11;	
     border:6px
     solid rgba(255, 255, 255, .2)}
@@ -914,7 +822,7 @@ h2{
 #news #newsBolloFb>hr{
     border-top:1px solid #6fa0a7}
 #news #newsBolloFb>p{
-    background:transparent url('/images/news.bollo.fb.arrow.png') no-repeat scroll center 0%}
+    background:transparent url('/home/static/images/news.bollo.fb.arrow.png') no-repeat scroll center 0%}
 #news #newsBolloFb>h2{
     bottom:67px;	
     color:#354b4e}
@@ -924,7 +832,7 @@ h2{
     margin-left:-4px;	
     width:9px;	
     height:19px;	
-    background:transparent url('/images/news.button.facebook.icon.png')}
+    background:transparent url('/home/static/images/news.button.facebook.icon.png')}
 #news #newsBolloFb>span{
     background:#6fa0a7}
 #news #newsBolloFb>h3{
@@ -946,7 +854,7 @@ h2{
 #news #newsBolloTw>hr{
     border-top:1px solid #5b6a6a}
 #news #newsBolloTw>p{
-    background:transparent url('/images/news.bollo.tw.arrow.png') no-repeat scroll center 0%}
+    background:transparent url('/home/static/images/news.bollo.tw.arrow.png') no-repeat scroll center 0%}
 #news #newsBolloTw>h2{
     bottom:50px;	
     color:#e1dace}
@@ -956,7 +864,7 @@ h2{
     margin-left:-6px;	
     width:13px;	
     height:18px;	
-    background:transparent url('/images/news.button.twitter.icon.png')}
+    background:transparent url('/home/static/images/news.button.twitter.icon.png')}
 #news #newsBolloTw>span{
     background:#999}
 #news #newsBolloTw>h3{
@@ -988,7 +896,7 @@ h2{
     margin-left:-25px;	
     width:50px;	
     height:33px;	
-    background:transparent url('/images/news.bubble.twitter.png')}
+    background:transparent url('/home/static/images/news.bubble.twitter.png')}
 #news #newsBolloStatus>span{
     bottom:33px;	
     left:50%;	
@@ -1033,11 +941,11 @@ h2{
 #news #newsBolloStatus>hr.top{
     top:77px;	
     height:1px;	
-    background:transparent url('/images/news.bubble.ornament.top.png')}
+    background:transparent url('/home/static/images/news.bubble.ornament.top.png')}
 #news #newsBolloStatus>hr.bottom{
     top:194px;	
     height:10px;	
-    background:transparent url('/images/news.bubble.ornament.bottom.png')}
+    background:transparent url('/home/static/images/news.bubble.ornament.bottom.png')}
 #newsBolloStatusMini{
     top:63px;	
     right:357px;	
@@ -1059,7 +967,7 @@ h2{
     height:810px;	
     border-top:3px solid #91d1da;	
     border-bottom:3px solid #91d1da;	
-    background:transparent url('/images/footer.anna.jpg');	
+    background:transparent url('/home/static/images/footer.anna.jpg');	
     overflow:hidden}
 #footer
 #footerBollonzo{
@@ -1095,10 +1003,10 @@ h2{
     border:0}
 #footer #footerBollonzo>hr.top{
     top:186px;	
-    background:transparent url('/images/header.ornament.top.png') no-repeat scroll center center}
+    background:transparent url('/home/static/images/header.ornament.top.png') no-repeat scroll center center}
 #footer #footerBollonzo>hr.bottom{
     top:262px;	
-    background:transparent url('/images/header.ornament.bottom.png') no-repeat scroll center center}
+    background:transparent url('/home/static/images/header.ornament.bottom.png') no-repeat scroll center center}
 #footer #footerBollonzo>h2{
     top:44px;	
     font:32px/.9 "Otto";	
@@ -1137,13 +1045,13 @@ h2{
     margin-left:-22px;	
     width:9px;	
     height:18px;	
-    background:transparent url('/images/footer.facebook.icon.png')}
+    background:transparent url('/home/static/images/footer.facebook.icon.png')}
 #footer #footerBollonzo
 #footerTwButt{
     margin-left:2px;	
     width:13px;	
     height:18px;	
-    background:transparent url('/images/footer.twitter.button.png')}
+    background:transparent url('/home/static/images/footer.twitter.button.png')}
 #footer #footerBollonzo
 #scozzese{
     display:block;	
@@ -1170,7 +1078,7 @@ h2{
     display:block;	
     width:38px;	
     height:38px;	
-    background:transparent url('/images/footer.scozzese.logo.jpg') no-repeat scroll center center;	
+    background:transparent url('/home/static/images/footer.scozzese.logo.jpg') no-repeat scroll center center;	
     z-index:2}
 #footer #footerBollonzo>h3{
     position:absolute;	
@@ -1191,7 +1099,7 @@ h2{
     margin-left:-860px;	
     width:1131px;	
     height:1115px;	
-    background:transparent url('/images/footer.scozzese.logoHuge.png') no-repeat scroll center 200px;	
+    background:transparent url('/home/static/images/footer.scozzese.logoHuge.png') no-repeat scroll center 200px;	
     opacity:0;	
     z-index:4}
 #footer
@@ -1215,7 +1123,7 @@ h2{
     margin:-213px 0 0 -213px;	
     width:427px;	
     height:426px;	
-    background:black url('/images/ie8/wallpaper.bollonzo.bg.png')}
+    background:black url('/home/static/images/ie8/wallpaper.bollonzo.bg.png')}
 #notfoundBollo > h1, #notfoundBollo > h2, #notfoundBollo
 h3{
     margin-left:22px;	
@@ -1309,14 +1217,5 @@ h3{
     -webkit-transform:scale(0);	
     -o-transform:scale(0);	
     -ms-transform:scale(0)}
-#awwwards{
-    position:absolute;	
-    top:49px;	
-    right:0px;	
-    z-index:1000}
-#awwwards>a{
-    display:block;	
-    width:69px;	
-    height:105px;	
-    background:transparent url('/images/awwwards_siteoftheday_w_right.png') no-repeat}
+
 
