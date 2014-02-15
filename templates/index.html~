@@ -21,7 +21,7 @@
 </div>
 <nav id="menu">
 	<div id="menuButtons">
-		<a href="http://facebook.com" style="display: block; position: absolute; left: 111px; width: 65px;">About</a>
+		<a href="#ABOUT" style="display: block; position: absolute; left: 111px; width: 65px;">About</a>
 		<a href="#">Home</a>
 		<div><a id="menuBackToTop" href="#" style="margin-top: 0%;">BAcK tO ToP</a></div>
 	</div>

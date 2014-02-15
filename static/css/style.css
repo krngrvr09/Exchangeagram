@@ -159,7 +159,7 @@ body>section>header>p>span{
     left:50%;	
     margin-left:-495px;	
     width:990px;	
-    height:47px;	
+    height:57px;	
     z-index:99}
 #menu>*{
     position:absolute;	
@@ -173,11 +173,10 @@ body>section>header>p>span{
     display:block;	
     float:left;	
     position:relative;	
-    margin:18px
-    0 0 32px;	
+    margin:18px 0 0 27px;	
     height:12px;	
     color:#d2cbc0;	
-    font:12px/1 "Museo"}
+    font:20px/1 "Museo"}
 #menu #menuButtons>div{
     position:absolute;	
     top:18px;	
@@ -188,8 +187,8 @@ body>section>header>p>span{
 #menu #menuButtons > div
 #menuBackToTop{
     display:block;	
-    padding-left:23px;	
-    font:12px/1 "Museo";	
+    padding-left:10px;	
+    font:16px/1 "Museo";	
     background:transparent url('/home/static/images/menu.backtotop.png') no-repeat scroll 0% 0%;	
     color:#d2cbc0}
 #menu #menuFacebook, #menu
@@ -239,7 +238,7 @@ body>section>header>p>span{
     left:50%;	
     margin-left:-436px;	
     width:450px;	
-    height:450px;	
+    height:430px;	
     background:black;	
     border-radius:376px;	
     text-align:center;	
@@ -266,32 +265,32 @@ body>section>header>p>span{
     width:100% !important;	
     border:0}
 #header #headerBollonzo>hr.top{
-    top:91px;	
+    top:141px;	
     background:transparent url('/home/static/images/header.ornament.top.png') no-repeat scroll center center}
 #header #headerBollonzo>hr.bottom{
-    top:232px;	
+    top:285px;	
     background:transparent url('/home/static/images/header.ornament.bottom.png') no-repeat scroll center center}
 #header #headerBollonzo>h1{
-    top:118px;	
-    font:60px/.8 "Otto";	
+    top:175px;	
+    font:65px/.8 "Otto";	
     color:#b5b0a5;	
     letter-spacing:-1px;	
     padding-top:3px}
 #header #headerBollonzo>h2{
-    top:50px;	
-    font:14px/1 "Museo";	
+    top:100px;	
+    font:24px/1 "Museo";	
     color:#e1dace}
 #header #headerBollonzo>h2>strong{
     display:block;	
-    font:14px/1 "MuseoBold";	
+    font:24px/1 "MuseoBold";	
     color:#74a7ae}
 #header #headerBollonzo>h3{
-    top:259px;	
-    font:14px/1 "Museo";	
+    top:310px;	
+    font:24px/1 "Museo";	
     color:#71acd6}
 #header #headerBollonzo>h4{
-    top:275px;	
-    font:14px/1 "Museo";	
+    top:335px;	
+    font:24px/1 "Museo";	
     color:#74a7ae}
 #header #headerBollonzo .fb-like{
     bottom:48px;	
@@ -323,47 +322,48 @@ body>section>header>p>span{
 #header
 #tendinaDx{
     left:763px}
-#biografia{
+#ABOUT{
     position:relative}
-#biografia>header>p>span{
-    background:transparent url('/home/static/images/biografia.title.icon.png') no-repeat scroll center center}
-#biografia>header>h4,#biografia>header>h5{
+#ABOUT>header>p>span{
+    background:transparent 
+    url('/home/static/images/biografia.title.icon.png') no-repeat scroll center center}
+#ABOUT>header>h4,#ABOUT>header>h5{
     position:absolute;	
     right:10px;	
     text-align:right;	
     font:14px/1.2 "Museo";	
     width:422px}
-#biografia>header>h4{
+#ABOUT>header>h4{
     top:68px;	
     color:#83807a}
-#biografia>header>h4>strong{
+#ABOUT>header>h4>strong{
     color:#d2cbc0}
-#biografia>header>h5{
+#ABOUT>header>h5{
     top:113px;	
     color:#8ccad3}
-#biografia>section>section{
+#ABOUT>section>section{
     position:relative;	
     margin-bottom:32px;	
     width:50%}
-#biografia>section>section>header{
+#ABOUT>section>section>header{
     font:24px/1 "Museo";	
     color:#74a7ae}
-#biografia>section>section>article>p{
+#ABOUT>section>section>article>p{
     font:14px/1.7 "Museo";	
     padding-bottom:34px}
-#biografia>section>section>article>p>strong{
+#ABOUT>section>section>article>p>strong{
     font:14px/1.7 "MuseoBold";	
     color:#d2cbc0}
-#biografia>section>section>hr{
+#ABOUT>section>section>hr{
     margin:17px
     0;	
     border-top:0 solid #202020;	
     background:#202020}
-#biografia>section>section>div{
+#ABOUT>section>section>div{
     position:absolute;	
     border:6px
     solid rgba(255, 255, 255, .2)}
-#biografia #firstBio
+#ABOUT #firstBio
 #firstBollo1{
     top:0;	
     left:517px;	
@@ -372,7 +372,7 @@ body>section>header>p>span{
     border-radius:320px;	
     background:transparent url('/home/static/images/biografia.anna.bollonzo.1a.jpg') no-repeat scroll center center;	
     z-index:11}
-#biografia #firstBio
+#ABOUT #firstBio
 #firstBollo2{
     top:167px;	
     left:751px;	
@@ -381,7 +381,7 @@ body>section>header>p>span{
     border-radius:207px;	
     background:transparent url('/home/static/images/biografia.anna.bollonzo.1b.jpg') no-repeat scroll center center;	
     z-index:12}
-#biografia #firstBio
+#ABOUT #firstBio
 #firstBollo3{
     top:217px;	
     left:575px;	
@@ -390,10 +390,10 @@ body>section>header>p>span{
     border-radius:153px;	
     background:transparent url('/home/static/images/biografia.anna.bollonzo.1c.jpg') no-repeat scroll center center;	
     z-index:13}
-#biografia
+#ABOUT
 #secondBio{
     margin-left:50%}
-#biografia #secondBio
+#ABOUT #secondBio
 #secondBollo1{
     top:0;	
     left:-484px;	
@@ -402,7 +402,7 @@ body>section>header>p>span{
     border-radius:427px;	
     background:transparent url('/home/static/images/biografia.anna.bollonzo.2a.jpg') no-repeat scroll center center;	
     z-index:11}
-#biografia #secondBio
+#ABOUT #secondBio
 #secondBollo2{
     top:306px;	
     left:-275px;	
@@ -411,10 +411,10 @@ body>section>header>p>span{
     border-radius:217px;	
     background:transparent url('/home/static/images/biografia.anna.bollonzo.2b.jpg') no-repeat scroll center center;	
     z-index:12}
-#biografia
+#ABOUT
 #thirdBio{
     margin-bottom:0}
-#biografia #thirdBio
+#ABOUT #thirdBio
 #thirdBollo1{
     top:0;	
     left:523px;	
@@ -423,7 +423,7 @@ body>section>header>p>span{
     border-radius:436px;	
     background:transparent url('/home/static/images/biografia.anna.bollonzo.3a.jpg') no-repeat scroll center center;	
     z-index:11}
-#biografia #thirdBio
+#ABOUT #thirdBio
 #thirdBollo2{
     top:320px;	
     left:523px;	
@@ -1165,8 +1165,7 @@ h3{
     position:absolute;	
     top:50%;	
     left:50%;	
-    margin:67px
-    0 0 -50px;	
+    margin:67px 0 0 -50px;	
     width:100px;	
     height:100px;	
     z-index:2;	
@@ -1186,11 +1185,11 @@ h3{
     color:#b5b0a5}
 #loader>h2{
     margin-top:-10px;	
-    font:18px/1 "Museo";	
+    font:38px/1 "Museo";	
     color:#354b4e}
 #loader>h3{
     margin-top:144px;	
-    font:14px/1 "Museo";	
+    font:20px/1 "Museo";	
     color:#74A7AE}
 #loaderTop,#loaderBottom{
     position:absolute;	
@@ -1211,7 +1210,7 @@ h3{
     width:500px;	
     height:500px;	
     border-radius:450px;	
-    background:black;	
+    background:#7A7D7F;	
     z-index:1;	
     transform:scale(0.5);	
     -moz-transform:scale(0);	

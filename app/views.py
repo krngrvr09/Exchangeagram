@@ -48,25 +48,25 @@ def project(request):
     return render(request, 'project.html', {'date': date, 'payment': payment, 'title': title})'''
 
 def home(request):
-    return render(request, 'home.html')
     
-def user_home(request):
+    return render(request, 'home.html')
+
+def user_home(request ):
     user_function = users.get_current_user() 
-    username = user_function.nickname()  
-    a = models.UserData()
-    if a.query(a._properties['user_name'] == username):
-        return redirect('picture')
+    a=models.UserData()
+    if user_function:
+        username = user_function.nickname()  
+        email = user_function.email()
+        href = users.create_logout_url('/home')
+
     else:
-        return redirect('home')
-        
-def picture(request):
-    user_function = users.get_current_user() 
-    profile_pic = models.UserData()
-    profile_pic.user_email = user_function.email()
-    profile_pic.user_name = self.request.get('user_name')
-    profile_pic.user_image = self.request.get('user_image')
-    profile_pic.put()
-    return render(request, 'user_home.html')
+        username = user_function.nickname()
+        email = user_function.email()
+        href = users.create_login_url('/home')
+    return render(request, 'profile.html', {'email': email, 'username': username,
+    'href':href})
+
+
 
 def profile(request):
     user_function = users.get_current_user() 

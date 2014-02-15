@@ -3,7 +3,7 @@ from google.appengine.api import search
 from datetime import datetime
 
 class UserData(ndb.Model):
-    user_name = ndb.StringProperty()
+    user_name = ndb.TextProperty()
     Date = ndb.DateTimeProperty(auto_now_add=True)
     user_email = ndb.TextProperty()
     user_image = ndb.BlobProperty()
