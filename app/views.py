@@ -1,6 +1,7 @@
 from django.http import HttpResponse, HttpRequest
 from django.shortcuts import render, redirect
 from google.appengine.api import users
+from google.appengine.api import images
 import os
 import sys
 import models
@@ -66,15 +67,34 @@ def user_home(request ):
     return render(request, 'profile.html', {'email': email, 'username': username,
     'href':href})
 
-
+def upload(request):
+    avatar = images.resize(self.request.get('img'),32,32)
+    q = models.UserData()
+    user_image = avatar
+    user_function = users.get_current_user() 
+    username = user_function.nickname()
+    for i in q.query(q._properties['user_name'] == username):
+        i.user_image = Avatar
+        i.put()
+    
 
 def profile(request):
     user_function = users.get_current_user() 
     a=models.UserData()
     if user_function:
-        username = user_function.nickname()  
+        username = user_function.nickname() 
+        if username not in a.query(a._properties['username']):
+            pass
         email = user_function.email()
         href = users.create_logout_url('/home')
+
+    else:
+        username = user_function.nickname()
+        email = user_function.email()
+        href = users.create_login_url('/home')
+    return render(request, 'profile.html', {'email': email, 'username': username,
+    'href':href})
+
 
         '''for i in a.query(a._properties['username'] == username):
             contributed_list.append(i.contributed_to)
@@ -88,11 +108,6 @@ def profile(request):
             query.put()
         else:
             pass'''
-    else:
-        username = user_function.nickname()
-        email = user_function.email()
-        href = users.create_login_url('/home')
-    return render(request, 'profile.html', {'email': email, 'username': username})
 
 
 
