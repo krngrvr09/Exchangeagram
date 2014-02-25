@@ -7,10 +7,12 @@ class UserData(ndb.Model):
     Date = ndb.DateTimeProperty(auto_now_add=True)
     user_email = ndb.TextProperty()
     user_image = ndb.BlobProperty()
+    
+    
+class Updates(ndb.Model):
+    notifications = ndb.StringProperty()
 
-class ImageData(ndb.Model):
-    user_name = ndb.StringProperty()
-    image = ndb.BlobProperty()
+
     
 
     
